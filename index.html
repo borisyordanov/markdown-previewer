@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="markdown-app">
+
+<head>
+	<title>Markdown Previewer</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" href="node_modules/highlightjs/styles/gitHub.css">
+	<link href="app/markdown-previewer.component.css" rel="stylesheet">
+</head>
+
+<body>
+
+	<markdown-previewer></markdown-previewer>
+
+	<!-- Vendors -->
+	<script src="node_modules/angular/angular.min.js"></script>
+	<script type="text/javascript" src="node_modules/angular-sanitize/angular-sanitize.min.js"></script>
+	<script type="text/javascript" src="node_modules/marked/lib/marked.js"></script>
+	<script type="text/javascript" src="node_modules/highlightjs/highlight.pack.js"></script>
+
+	<!-- Modules -->
+	<script src="app/markdown-app.module.js"></script>
+
+	<!-- Components -->
+	<script src="app/markdown-previewer.component.js"></script>
+</body>
+
+</html>

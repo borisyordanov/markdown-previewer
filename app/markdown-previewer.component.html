@@ -1,0 +1,15 @@
+<div class="container-fluid">
+	<div class="row">
+		<h1 class="header">GitHub flavored markdown with angular.js and marked</h1>
+	</div>
+	<div class="row">
+		<div class="col-sm-6 input">
+			<h2 class="title">Input Markdown</h2>
+			<textarea class="form-control input-text" ng-model="$ctrl.inputText" ng-change="$ctrl.onInputChange()" auto-grow></textarea>
+		</div>
+		<div class="col-sm-6">
+			<h2 class="title">Preview Markdown</h2>
+			<div class="result" ng-bind-html="$ctrl.outputText"></div>
+		</div>
+	</div>
+</div>
