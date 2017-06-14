@@ -1,19 +1,20 @@
 .header {
-	text-align: center;
-	text-transform: capitalize;
+    text-align: center;
+    text-transform: capitalize;
+    margin: 20px auto;
 }
 
-.input, .input-text{
-	min-height: 100px !important;
-	overflow: hidden;
+.input, .input-text {
+    min-height: 100px !important;
+    overflow: hidden;
 }
 
 .result {
-	min-height: 100px;
-	border: 1px solid #CCCCCC;
-	border-radius: 4px;
-	padding: 5px;
+    min-height: 100px;
+    border: 1px solid #CCCCCC;
+    border-radius: 4px;
+    padding: 5px;
 }
 .title {
-	text-align: center;
+    text-align: center;
 }

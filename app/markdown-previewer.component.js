@@ -13,7 +13,7 @@
 		
 		this.onInputChange = function() {
 			this.outputText = marked(this.inputText);
-		}
+		};
 
 		marked.setOptions({
 			renderer: new marked.Renderer(),
