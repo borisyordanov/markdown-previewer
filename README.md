@@ -1,5 +1,7 @@
 ## Welcome
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/borisyordanov/markdown-previewer.svg)](https://greenkeeper.io/)
+
 Visit the live demo - https://borisyordanov.github.io/markdown-previewer/
 
 ### Markdown
